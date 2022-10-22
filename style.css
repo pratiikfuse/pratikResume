@@ -1,0 +1,33 @@
+h3{
+    color:white;
+    background-color: lightslategray;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+nav{
+    height:30px;
+    background-color: rgb(144, 174, 171);
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+th{
+    background-color: gray;
+}
+
+button{
+    background-color:white;
+}
+button:hover {
+        background-color: blue; /* Green */
+        color: white;
+}
+   
