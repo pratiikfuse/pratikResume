@@ -9,7 +9,9 @@ table,th,td{
     padding: 15px;
 }
 
-
+.images{
+    padding-top: 20px;
+}
 
 nav{
     height:30px;

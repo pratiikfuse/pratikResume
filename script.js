@@ -1,6 +1,7 @@
+
 function highLightDiv(value)
 {
-    ;
+    
     idno = value.id;
 
     if(idno ==='1')
@@ -47,9 +48,12 @@ function highLightDiv(value)
         setTimeout(()=>{
             document.getElementById("certificate").style.backgroundColor="white";
         },1000);
-    }
-   
- 
-   
+    }   
+}
+
+function display()
+{
+    let feedback = document.getElementById("feedback").value;
+    console.log(feedback);
 }
 
