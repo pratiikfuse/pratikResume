@@ -51,9 +51,8 @@ function highLightDiv(value)
     }   
 }
 
-function display()
+function feedback()
 {
-    let feedback = document.getElementById("feedback").value;
-    console.log(feedback);
+    
 }
 

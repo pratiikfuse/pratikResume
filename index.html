@@ -7,11 +7,14 @@
     <meta property="og:title" content="Pratik Fuse Resume">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
     <script src="script.js"></script>
     <title>Resume</title>
 </head>
 <header>
+    <img id="profilepic" src="./assets/Pratik_Photo.jpg" alt="Pratik's photo">
+    
+</header>
+<body>
     <nav> 
         <a  href="#qualification"><button id="1"  onclick="highLightDiv(this);">Education Qualification</button></a>
         <a href="#links" style="padding-left:20px"><button id="2"  onclick="highLightDiv(this);">Platform Links</button></a>
@@ -20,9 +23,7 @@
         <a href="#media" style="padding-left:20px"><button id="5"  onclick="highLightDiv(this);">Social Media</button></a>
         <a href="#certificate" style="padding-left:20px"><button id="6"  onclick="highLightDiv(this);">Certificates</button></a>
     </nav>
-</header>
-<body>
-    <h1 align="center">Pratik Raghunath Fuse</h1>
+    <h1 style="text-align:center">Pratik Raghunath Fuse</h1>
 
     <div class="details">
         <b>Contact No : +91 8830237551</b>
@@ -33,7 +34,8 @@
     </div>
     <div class="objectives">
         <h3> Objective :</h3>
-        <p> To contribute significantly in highly challenging projects as well as work with an inspiring team and grow in a reputed 
+        <p> 
+            To contribute significantly in highly challenging projects as well as work with an inspiring team and grow in a reputed 
             organization, where I can utilize as well as develop my technical skills by getting a good exposure and knowledge, which 
             can be utilized for growth of organization.
         </p>
@@ -96,7 +98,7 @@
                 <ul>
                     <li>Procedural language : </li>
                     <div class="images">
-                        <img src="./assets/C.png" width=40 alt="C"></li>
+                        <img src="./assets/C.png" width=50 alt="C"></li>
                     </div>
 
                     <!-- OOP -->
@@ -104,26 +106,26 @@
                     <br>
                     <li>Object Oriented Language :</li>
                     <div class="images">
-                        <img src="./assets/CPP.png" width="40" alt="C++">
-                        <img src="./assets/Java.png" style="margin-left: 20px;" width="40" alt="Java">
-                        <img src="./assets/CS.png" style="margin-left:10px;padding-top:0px" width="72" alt="C#">
+                        <img src="./assets/CPP.png" width="50" alt="C++">
+                        <img src="./assets/Java.png" style="margin-left: 20px;" width="50" alt="Java">
+                        <img style="margin-bottom:-10px;" src="./assets/CS.png" style="margin-left:10px;padding-top:0px" width="85" alt="C#">
                     </div>
                     <br>
                     <br>
                   <!-- scripting languaes -->
                     <li>Scripting Languages : </li>
                     <div class="images">
-                        <img src="./assets/python.png" width="40" alt="Python">
-                        <img src="./assets/Js.svg" width="40" alt="Javascript" style="margin-left:20px">
-                        <img src="./assets/TS.png" width=40 alt="TypeScript"style="margin-left:20px">
+                        <img src="./assets/python.png" width="50" alt="Python">
+                        <img src="./assets/Js.svg" width="50" alt="Javascript" style="margin-left:20px">
+                        <img src="./assets/TS.png" width=50 alt="TypeScript"style="margin-left:20px">
                     </div>
                     <br>
                     <br>
                     <!-- Others -->
                     <li>Others : </li>
                     <div class="images">
-                        <img src="./assets/html.png" width="55" alt="HTML">
-                        <img src="./assets/css.png" width="40" alt="CSS" style="margin-left:20px">
+                        <img src="./assets/html.png" width="70" alt="HTML">
+                        <img src="./assets/css.png" width="50" alt="CSS" style="margin-left:20px">
                     </div>
                     <br>
                     <br>
@@ -190,7 +192,9 @@
         <br>
         <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
         <br>
-        <button onclick="display();">Submit Feedback</button>
+        <div style="margin-top:5px">
+        <a href="./feedback.html"  style="background-color: blue; text-decoration: none; padding:5px; color: white;border:solid ; border-radius:5px">submit feedback</a>
+        </div>
     </form>
 </footer>
 </html>
