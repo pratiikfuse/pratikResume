@@ -186,14 +186,18 @@
 </body>
 <footer>
     <h3>feedback</h3>
-    <form>
+    <form action="mailto:pratikfuse20@gmail.com" method="post" enctype="text/plain">
+        <label for="name"><b>Your Name : </b></label>
+        <input type="text" placeholder="first & last" name="Name" id="name">
+        <br>
         <label for="feedback"><b>Enter feedback:</b></label>
         <br>
-        <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
+        <textarea name="Feedback" id="feedback" cols="50" rows="10"></textarea>
         <br>
         <div style="margin-top:5px">
-        <a href="./feedback.html"  style="background-color: blue; text-decoration: none; padding:5px; color: white;border:solid ; border-radius:5px">submit feedback</a>
-        </div>
+        <!-- <a href="./feedback.html"  style="background-color: blue; text-decoration: none; padding:5px; color: white;border:solid ; border-radius:5px">submit feedback</a>
+        </div> -->
+        <button>submit</button>
     </form>
 </footer>
 </html>
